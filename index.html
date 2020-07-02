@@ -5,77 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Meu Currículo</title>
+    <link rel="icon" type="imagem/png" href="Img/favicon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+
+    <title>Israel - Currículo</title>
 
   </head>  
   
   <body>
-    
-    <!--Parte de texto, fundo branco-->
-    <section> 
-      <img src="https://cdn.glitch.com/fab3ddae-f5a4-464e-9139-d138441bac3f%2FSem%20T%C3%ADtulo-1.png?v=1591749715374" alt="Foto do perfil de Israel Batista" width="200"> <!--Minha foto-->
-      <h2>Israel Batista</h2> <!--Meu nome-->
-      <p><em>Desenvolvedor Front-end e fotógrafo.</em></p> <!--Descrição-->
-    </section>
+    <div class="container">
+      <div class="main-container">
+        <header> 
+          
+          <img class="img-perfil"
+          src="Img/perfil.png"
+          alt="Foto do perfil de Israel Batista">
+          
+          <div class="title">
+            <h1>Israel Batista</h1>
+              <p>Desenvolvedor Front-end e fotógrafo</p>
+          </div>
+        </header>
 
-    <main>
-      <section>
-        <h3>Perfil</h3>
-        <p>Tenho 23 anos, sou casado. Nasci em Macaé - RJ. Comida favorita: Lasanha</p>
-      </section>
-      
-      <section>
-      <h3>Experiência profissional</h3>
-        <ul>
-          <li>2015-2020 – INSTITUTO JOÃO CALVINO (Regime de contrato)</li>
-          <li>Atualmente (freelancer) – Aline Guedes Fotografia</li>
-        </ul>
-       </section>
+        <main>
+          
+          <section class="sec-space">
+            <h2 class="sec-title">Perfil</h2>
+              <p>Tenho 23 anos, sou casado. Nasci em Macaé - RJ, morando desde 2012 em Pernambuco. Possuo home office e tenho inglês básico. Minha comida favorita? Lasanha :D</p>
+          </section>
+          
+          <section class="sec-space">
+            <h2 class="sec-title">Experiência profissional</h2>
+              <ul>
+                <li>2015-2020 – INSTITUTO JOÃO CALVINO (freelancer)</li>
+                <li>Atualmente (freelancer) – Aline Guedes Fotografia</li>
+              </ul>
+          </section>
 
-      <section>
-       <h3>Educação</h3>
-        <p>2016 - Ensino Médio Completo (Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco)</p>
-      </section>
+          <section class="sec-space">
+            <h2 class="sec-title">Educação</h2>
+              <ul>
+                <li>2016 - Ensino Médio Completo (Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco)</li>
+                <li>2019 – Curso Profissional de Fotografia. Carga horária: 40h. (Escola Pernambucana de Fotografia)</li>
+                <li>2020 (cursando) – Curso Start Latam Brasil – Rede Cidadã – Frontend.  Carga horária: 296h. Módulos: Inteligência emocional; Fundamentos da internet; Programação.</li>
+              </ul>
+          </section>
 
-      <section>
-      <h3>Projetos</h3>
-        <ul>  
-          <li><a href="https://www.behance.net/gallery/70811589/Casamento-Andr-Marcella" target="_blank">Arte de casamento - André & Marcella</a></li>
-          <li><a href="https://www.behance.net/gallery/70891217/Cartaz-Palestras-no-Clire" target="_blank">Cartaz - Palestras no Clire.</a></li>
-        </ul>
-      </section>
-    </main>
-    
-    <!--Parte a direita da página, fundo azul-->
-    <sidebar>
-      <section></section>
-        <h4>Contato</h4>
-        <p>Local: <em>Jardim Atlântico, Olinda - PE.</em></p>
-        <p>Tel: <em>81 98310-3642</em></p>
-      
-      <!--Ícones redes sociais-->
-      <div>
-        <a href="https://www.instagram.com/_israelbatista/" target="_blank">
-        <img src="https://cdn.glitch.com/f6796d22-20b5-40c3-a5c9-4ddca0c5509f%2Finstagram.svg?1591754249493" width="25px" alt="Instagran"> </a>
+          <section>
+            <h2 class="sec-title">Projetos</h2>
+              <ul>  
+                <li><a href="https://www.behance.net/gallery/70811589/Casamento-Andr-Marcella" target="_blank">Arte de casamento - André & Marcella</a></li>
+                <li><a href="https://www.behance.net/gallery/70891217/Cartaz-Palestras-no-Clire" target="_blank">Cartaz - Palestras no Clire.</a></li>
+              </ul>
+          </section>
         
-        <a href="https://github.com/Israelfer" target="_blank">
-        <img src="https://cdn.glitch.com/f6796d22-20b5-40c3-a5c9-4ddca0c5509f%2Fthumbnails%2Fgithub-image.svg?1591754249573" width="25px" alt="Github"></a>
+        </main>
+    </div>
+      
+    <aside>
         
-        <a href="https://www.linkedin.com/in/israel-batista/" target="_blank">
-            <img src="https://cdn.glitch.com/f6796d22-20b5-40c3-a5c9-4ddca0c5509f%2Fthumbnails%2F77d01884-7f1a-4597-b564-e8115fe0d93c.image.png?1591754382836" width="25px" alt="Linkedin"></a>
-      </div>
-     
-      <!--Conhecimentos - corrigir posteriormente no CSS-->
-      <section>
-        <h4>Conhecimentos</h4>
-         <p>Wordpress</p>
-         <p>HTML</p>
-         <p>CSS</p>
-         <p>JavaScrip</p>
-         <p>React</p>
-         <p>API Rest</p>
-         <p>Photoshop</p>
-      </section>
-    </sidebar>
+        <section class="info">
+          <div class="info-text">
+            <h3 class="aside-title">Contato</h3>
+              <p style="font-style: italic ;">Jardim Atlântico, Olinda</p>
+              <p>Tel: (81) 98310-3642</p>
+              <p>Email: israel.fbb@gmail.com</p>
+          </div>
+        
+        <!--Ícones redes sociais-->
+          <div class="icon">
+            <a class="icon-space" href="https://github.com/Israelfer" target="_blank">
+              <img class="iconimg" src="Img/github.png" width="25px" alt="Github"></a>
+              
+            <a class="icon-space" href="https://twitter.com/_Israelbatista" target="_blank">
+              <img class="iconimg" src="img/twitter.png" width="25px" alt="twitter"></a>
+            
+            <a href="https://www.linkedin.com/in/israel-batista/" target="_blank">
+              <img class="iconimg" src="img/linkedin.png" width="25px" alt="Linkedin"></a>
+          </div>
+        </section>
+        
+        <section class="skils">
+          <h3 class="aside-title">Conhecimentos</h3>
+            <ul>
+              <li>Wordpress</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScrip</li>
+              <li>Photoshop</li>
+            </ul>
+        </section>
+      
+      </aside>
+    </div>
   </body>
 </html>

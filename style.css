@@ -1,0 +1,158 @@
+:root {
+    --primary-color: #19304F;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 14px;
+
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2 {
+    color: var(--primary-color)
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    color: #222222;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(41, 185, 166);
+}
+
+.container {
+    width: 1000px;
+    height: 100%;
+    display: flex;
+}
+
+.main-container {
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HEADER */
+
+header {
+    width: 80%;
+    height: 30%;
+    margin: 3%;
+    
+    display: flex;
+    align-items: center;
+}
+
+header .title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 5%;
+}
+
+header h1 {
+    font-size: 2.2em;
+}
+
+
+.img-perfil {
+    width: max(80px, 20%);
+    border-radius: 50%;
+}
+
+/* MAIN */
+
+main {
+    width: 80%;
+    height: 70%;
+    margin: 3%;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-title {
+    margin-bottom: 10px;
+}
+
+.sec-space {
+    margin-bottom: 36px;
+}
+
+/* ASIDE */
+
+aside {
+    width: 25%;
+    background-color: var(--primary-color);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+aside p {
+    color: white;
+}
+
+.aside-title {
+    margin-bottom: 11px;
+}
+
+li {
+    margin-left: 22px;
+}
+
+.info {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.skils {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.icon {
+    margin-top: 11px;
+}
+
+.icon-space {
+    margin-right: 7px;
+}
+
+.iconimg {
+    border-radius: 55%;
+    transition: 0.2s;
+}
+
+.iconimg:hover {
+    background-color: rgb(41, 185, 166);
+}
