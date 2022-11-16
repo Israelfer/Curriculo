@@ -78,7 +78,7 @@ header h1 {
 
 
 .img-perfil {
-    width: max(80px, 20%);
+    width: max(100px, 20%);
     border-radius: 50%;
 }
 
